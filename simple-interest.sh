@@ -26,3 +26,7 @@
    s=`expr $p \* $t \* $r / 100`
    echo "The simple interest is: "
    echo $s
+   
+   echo "Calculation complete."
+   echo "For a principal of $p at a rate of $r% over $t years,"
+   echo "the total interest accrued is: $s"
